@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untuk Pacarku Tersayang!</title>
+<style>
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2; /* Warna pink muda */
+    color: #ff66b2; /* Warna pink cerah */
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #ff1a75; /* Warna pink lebih gelap */
+    margin-bottom: 20px;
+  }
+  .photo-frame {
+    border: 5px solid #ff99cc; /* Border pink */
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .photo-frame img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .message {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+  }
+  .animated-gif {
+    margin-top: 30px;
+  }
+  .animated-gif img {
+    max-width: 150px; /* Ukuran GIF */
+    height: auto;
+  }
+  .heart-animation {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(-45deg);
+    animation: floatHeart 5s infinite ease-in-out;
+    opacity: 0;
+  }
+  .heart-animation:before,
+  .heart-animation:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  .heart-animation:before {
+    top: -10px;
+    left: 0;
+  }
+  .heart-animation:after {
+    left: 10px;
+    top: 0;
+  }
+
+  @keyframes floatHeart {
+    0% { transform: translateY(0) rotate(-45deg); opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { transform: translateY(-200px) rotate(-45deg); opacity: 0; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hai, [Nama Pacarmu]!</h1>
+    <div class="photo-frame">
